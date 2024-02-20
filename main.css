@@ -16,6 +16,19 @@ body {
 
 .header {
   display: flex;
+  gap: 0px;
+  padding: 16px 300px;
+  border: solid red;
+  justify-content: space-between;
+}
+
+.header-link {
+  align-self: flex-end;
+  border: solid red;
+}
+
+.header-logo {
+  align-self: flex-start;
 }
 
 .top-text-main,
@@ -26,6 +39,7 @@ body {
 
 .header-logo {
   font-size: 24px;
+  border: solid red;
 }
 
 .top-text-main {
