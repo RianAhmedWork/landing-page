@@ -1,77 +1,95 @@
 body {
   display: flex;
   flex-direction: column;
-  font-family: Arial, Helvetica, sans-serif;
-  border: solid red;
   margin: 0;
   min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
 }
 
-.header,
-.footer,
-.top {
-  background-color: #1F2937;
-  color: #E5E7EB;
-}
-
-.header {
+.hero,
+.info,
+.quote,
+.action,
+.footer {
   display: flex;
-  gap: 0px;
-  padding: 16px 300px;
-  border: solid red;
-  justify-content: space-between;
-}
-
-.header-link {
-  align-self: flex-end;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 0 300px;
   border: solid red;
 }
 
-.header-logo {
-  align-self: flex-start;
+.hero {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  gap: 100px;
+  padding-top: 20px;
 }
 
-.top-text-main,
-.header-logo {
-  color: #F9FAF8;
+.header-logo,
+.hero-title {
   font-weight: 800;
+  color: #f9faf8;
 }
 
 .header-logo {
   font-size: 24px;
-  border: solid red;
 }
 
-.top-text-main {
+.hero-title {
   font-size: 48px;
 }
 
-.header-link,
-.top-text-sub {
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: solid red;
+}
+
+.header-links {
+  display: flex;
+  gap: 20px;
+}
+
+.hero-main {
+  display: flex;
+  border: solid orange;
+  min-height: 250px;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: -10px;
+  flex: 1 1 50%;
+  flex-wrap: wrap;
+}
+
+.hero-title {
+  max-width: 60%;
+  border: solid red;
+}
+
+.hero-subtitle {
+  max-width: 80%;
   font-size: 18px;
-  color: #E5E7EB;
 }
 
-.top-button,
-.action {
-  background-color: #3882F6;
+.hero-image {
+  background-color: grey;
+  flex: 1 1 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.second-title {
-  font-size: 36px;
+.hero-button button {
+  background-color: #3882f6;
+  border: 0;
+  border-radius: 8px;
+  padding: 10px 36px;
+  font-size: 18px;
+  color: #e5e7eb;
   font-weight: 800;
-  color: #1F2937;
-}
-
-.third {
-  background-color: #E5E7EB;
-}
-
-.header,
-.top,
-.second,
-.third,
-.fourth,
-.footer {
-  flex: 1 1 auto;
 }
