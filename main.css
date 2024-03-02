@@ -149,3 +149,31 @@ body {
   color: #1f2937;
   align-self: flex-end;
 }
+
+.action {
+  padding: 100px 300px;
+}
+
+.action-main {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3882f6;
+  border-radius: 10px;
+  padding: 50px 150px;
+  color: white;
+}
+
+.action-title {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.action-button button {
+  font-size: 18px;
+  color: white;
+  font-weight: 800px;
+  background-color: #3882f6;
+  border-radius: 8px;
+  border: solid white;
+  padding: 5px 25px;
+}
