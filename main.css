@@ -129,3 +129,23 @@ body {
   color: grey;
   max-width: 175px;
 }
+
+.quote {
+  display: flex;
+  background-color: #e5e7eb;
+  padding: 150px 450px;
+  gap: 10px;
+}
+
+.quote-main {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.quote-sub {
+  font-size: 24px;
+  font-weight: 800;
+  color: #1f2937;
+  align-self: flex-end;
+}
